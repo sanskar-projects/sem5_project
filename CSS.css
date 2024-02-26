@@ -24,3 +24,8 @@ border:;
 padding:;
 margin:;
 }
+
+fieldset
+{
+float:left;
+}

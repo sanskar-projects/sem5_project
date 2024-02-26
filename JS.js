@@ -16,7 +16,7 @@ const arr=
 <br>~A.A. Milne",
 "I am fond of pigs. Dogs look up to us. Cats look down on us. Pigs treat us as equals.
 <br>~Winston S. Churchill",
-"If animals could speak, the dog would be a blundering outspoken fellow; but the cat would have the rare grace of never saying a word too much.
+"If animals could speak, the dog would be a blundering outspoken fellow, but the cat would have the rare grace of never saying a word too much.
 <br>~Mark Twain",
 "A dog is the only thing on earth that loves you more than he loves himself.
 <br>~Josh Billings"

@@ -1,6 +1,6 @@
 var n=1;
 var N=0;
-var arr=
+const arr=
 [
 "Outside of a dog, a book is man's best friend. Inside of a dog it's too dark to read.
 <br>~Groucho Marx",

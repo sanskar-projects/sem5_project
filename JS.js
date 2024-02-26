@@ -20,7 +20,7 @@ var arr=
 <br>~Mark Twain",
 "A dog is the only thing on earth that loves you more than he loves himself.
 <br>~Josh Billings"
-]
+];
 
 function slideshow()
 {

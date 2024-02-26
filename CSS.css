@@ -7,14 +7,12 @@ float:right;
 {
 height:250px;
 width:500px;
-float:left;
 }
 
-p.quote
+.quote
 {
 height:250px;
-width:500px;
-text-align:center;
+width:100%;
 }
 
 p

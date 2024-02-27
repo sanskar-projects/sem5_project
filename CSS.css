@@ -21,6 +21,11 @@ height:250px;
 width:500px;
 }
 
+fieldset
+{
+background-image:none;
+}
+
 p.quote
 {
 

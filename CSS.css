@@ -9,6 +9,11 @@ height:10px;
 width:100;
 }
 
+.title
+{
+float:left;
+}
+
 .slideshow
 {
 height:250px;

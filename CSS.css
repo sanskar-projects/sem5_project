@@ -3,6 +3,12 @@
 float:right;
 }
 
+.logo
+{
+height:10px;
+width:1000px;
+}
+
 .slideshow
 {
 height:250px;

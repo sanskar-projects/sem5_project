@@ -3,13 +3,6 @@
 float:right;
 }
 
-.logo
-{
-height:10px;
-width:100;
-float:left;
-}
-
 .slideshow
 {
 height:250px;
@@ -21,9 +14,19 @@ marquee
 background-image:url("logo.jpg");
 }
 
-p.quote
+body
 {
+background-image:linear-gradient(left,red,green);
+}
 
+h1
+{
+color:;
+font-family:;
+font-size:;
+border:;
+padding:;
+margin:;
 }
 
 p

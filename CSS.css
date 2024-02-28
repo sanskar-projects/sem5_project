@@ -1,6 +1,6 @@
 body
 {
-background-image:linear-gradient(left,red,green);
+background-image:linear-gradient(to left,red,green);
 }
 
 h1

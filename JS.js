@@ -53,4 +53,5 @@ function set()
 {
 setInterval(slideshow,1000);
 setInterval(quote,1000);
+setInterval(home,1000);
 }

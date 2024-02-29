@@ -40,6 +40,6 @@ document.getElementById("iframe").src=arr[x]+".html";
 function set()
 {
 setInterval(slideshow,1000);
-setInterval(quote,1000);
-setInterval(home,1000);
+setInterval(quote,5000);
+setInterval(home,5000);
 }

@@ -38,3 +38,9 @@ marquee
 {
 background-image:url("logo.jpg");
 }
+
+iframe
+{
+height:100%;
+width:100%;
+}

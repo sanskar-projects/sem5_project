@@ -1,13 +1,7 @@
 function slideshow()
 {
-x=1+Math.floor(Math.random()*15)
+var x=1+Math.floor(Math.random()*15)
 document.getElementById("1").src=x+".jpg";
-if(n<15)
-{
-n+=1;
-return;
-}
-n=1;
 }
 
 function quote()
@@ -32,20 +26,14 @@ const arr=
 
 "A dog is the only thing on earth that loves you more than he loves himself.<br>~Josh Billings"
 ];
-x=Math.floor(Math.random()*9);
+var x=Math.floor(Math.random()*9);
 document.getElementById("2").innerHTML=arr[x];
-if(n<8)
-{
-N+=1;
-return;
-}
-N=0;
 }
 
 function home()
 {
 const arr=["about","adopt","contact","donate","rescue"];
-x=Math.floor(Math.random()*5);
+var x=Math.floor(Math.random()*5);
 document.getElementById("iframe").src=arr[x]+".html";
 }
 

@@ -35,6 +35,7 @@ function home()
 const arr=["about","adopt","contact","donate","rescue"];
 var x=Math.floor(Math.random()*5);
 document.getElementById("iframe").src=arr[x]+".html";
+document.getElementById("b"+x).style.backgroundColor=red;
 }
 
 function set()

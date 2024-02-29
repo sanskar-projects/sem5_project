@@ -23,6 +23,12 @@ padding:;
 margin:;
 }
 
+hr
+{
+height:10px;
+background-color:black;
+}
+
 .menu
 {
 float:right;

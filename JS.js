@@ -1,5 +1,17 @@
-var n=1;
-var N=0;
+function slideshow()
+{
+x=1+Math.floor(Math.random()*15)
+document.getElementById("1").src=x+".jpg";
+if(n<15)
+{
+n+=1;
+return;
+}
+n=1;
+}
+
+function quote()
+{
 const arr=
 [
 "Outside of a dog, a book is man's best friend. Inside of a dog it's too dark to read.<br>~Groucho Marx",
@@ -20,21 +32,8 @@ const arr=
 
 "A dog is the only thing on earth that loves you more than he loves himself.<br>~Josh Billings"
 ];
-
-function slideshow()
-{
-document.getElementById("1").src=n+".jpg";
-if(n<15)
-{
-n+=1;
-return;
-}
-n=1;
-}
-
-function quote()
-{
-document.getElementById("2").innerHTML=arr[N];
+x=Math.floor(Math.random()*9);
+document.getElementById("2").innerHTML=arr[x];
 if(n<8)
 {
 N+=1;
@@ -54,5 +53,4 @@ function set()
 {
 setInterval(slideshow,1000);
 setInterval(quote,1000);
-setInterval(home,1000);
 }

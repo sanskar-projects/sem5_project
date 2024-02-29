@@ -39,9 +39,8 @@ marquee
 background-image:url("logo.jpg");
 }
 
-iframe
+.iframe
 {
 height:50%;
 width:50%;
-float:left;
 }

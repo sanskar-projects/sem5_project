@@ -47,7 +47,7 @@ function home()
 {
 const arr=["about","adopt","contact","donate","rescue"];
 x=Math.floor(Math.random()*5);
-document.getElementById("iframe").src=arr[0]+".html";
+document.getElementById("iframe").src=arr[x]+".html";
 }
 
 function set()

@@ -40,7 +40,7 @@ background-image:url("logo.jpg");
 }
 
 iframe
-margin:auto;
+{
 height:50%;
 width:50%;
 }

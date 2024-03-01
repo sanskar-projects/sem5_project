@@ -19,7 +19,7 @@ $_tel=$_GET["_tel"];
 $_mail=$_GET["_mail"];
 
 $conn=mysqli_connect("localhost","root","","NGO_database");
-$sql="INSERT INTO reports VALUES('$fname',)";
+$sql="INSERT INTO reports VALUES('$fname','$lname','$address','$city','$state','$country','$zip','$tel','$mail','$_address','$_city','$_state','$_country','$_zip''$date','$subject','$desc','$consent')";
 if($conn->query(sql)===TRUE)
 {
 echo "Submitted";

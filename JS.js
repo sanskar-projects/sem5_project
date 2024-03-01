@@ -30,16 +30,8 @@ var x=Math.floor(Math.random()*9);
 document.getElementById("2").innerHTML=arr[x];
 }
 
-function home()
-{
-const arr=["about","adopt","contact","donate","rescue"];
-var x=Math.floor(Math.random()*5);
-document.getElementById("iframe").src=arr[x]+".html";
-}
-
 function set()
 {
 setInterval(slideshow,1000);
 setInterval(quote,5000);
-setInterval(home,5000);
 }

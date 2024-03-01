@@ -15,8 +15,10 @@ $_city=$_GET["_city"];
 $_state=$_GET["_state"];
 $_country=$_GET["_country"];
 $_zip=$_GET["_zip"];
-$_tel=$_GET["_tel"];
-$_mail=$_GET["_mail"];
+$date=$_GET["date"];
+$subject=$_GET["subject"];
+$desc=$_GET["desc"];
+$consent=$_GET["consent"];
 
 $conn=mysqli_connect("localhost","root","","NGO_database");
 $sql="INSERT INTO reports VALUES('$fname','$lname','$address','$city','$state','$country','$zip','$tel','$mail','$_address','$_city','$_state','$_country','$_zip''$date','$subject','$desc','$consent')";

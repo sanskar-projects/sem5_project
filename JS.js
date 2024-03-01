@@ -34,4 +34,5 @@ function set()
 {
 setInterval(slideshow,1000);
 setInterval(quote,5000);
+document.getElementById("title").innerHTML="Paw Shelter";
 }

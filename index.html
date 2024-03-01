@@ -24,8 +24,9 @@ set();
 <hr>
 <br>
 
+<h1>Home</h1>
 <fieldset>
-<h1 href="index.html" style="background-color:white;">Home</h1><br>
+<h1>Main Menu</h1>
 <h1 id="a" <a href="about.html">About</a></h1><br>
 <h1 id="b" <a href="adopt.html">Adopt</a></h1><br>
 <h1 id="c" <a href="contact.html">Contact</a></h1><br>
@@ -35,24 +36,24 @@ set();
 <script>
 function clear()
 {
-document.getElementById("a").style.backgroundColor="green";
-document.getElementById("b").style.backgroundColor="green";
-document.getElementById("c").style.backgroundColor="green";
-document.getElementById("d").style.backgroundColor="green";
-document.getElementById("e").style.backgroundColor="green";
+document.getElementById("a").style.backgroundColor="black";
+document.getElementById("b").style.backgroundColor="black";
+document.getElementById("c").style.backgroundColor="black";
+document.getElementById("d").style.backgroundColor="black";
+document.getElementById("e").style.backgroundColor="black";
 }
 function home()
 {
 setTimeout(clear,99);
-setTimeout(function(){document.getElementById("a").style.backgroundColor="red";},100);
+setTimeout(function(){document.getElementById("a").style.backgroundColor="white";},100);
 setTimeout(clear,199);
-setTimeout(function(){document.getElementById("b").style.backgroundColor="red";},200);
+setTimeout(function(){document.getElementById("b").style.backgroundColor="white";},200);
 setTimeout(clear,299);
-setTimeout(function(){document.getElementById("c").style.backgroundColor="red";},300);
+setTimeout(function(){document.getElementById("c").style.backgroundColor="white";},300);
 setTimeout(clear,399);
-setTimeout(function(){document.getElementById("d").style.backgroundColor="red";},400);
+setTimeout(function(){document.getElementById("d").style.backgroundColor="white";},400);
 setTimeout(clear,499);
-setTimeout(function(){document.getElementById("e").style.backgroundColor="red";},500);
+setTimeout(function(){document.getElementById("e").style.backgroundColor="white";},500);
 }
 setInterval(home,501);
 </script>

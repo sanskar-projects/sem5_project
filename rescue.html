@@ -26,30 +26,32 @@ set();
 
 <h1>Report</h1>
 <p>
+<form method="get" action="form.php">
 Are you reporting that an animal is in imminent danger?<br>
 Do you know specifically where to find this animal, and is the abuse or danger taking place right now?<br>
 If so, please call your local police department.<br>
 If the police are unresponsive, please call Paw Shelter immediately at 9876543210.<br><br>
-First name: <input type="text"><br><br>
-Last name: <input type="text"><br><br>
-Address: <input type="text"><br><br>
-City: <input type="text"><br><br>
-State: <input type="text"><br><br>
-Country: <input type="text"><br><br>
-Zip code: <input type="text"><br><br>
-Telephone: <input type="tel"><br><br>
-E-mail: <input type="email"><br><br>
-Address where animal is located: <input type="text"><br><br>
-City where animal is located: <input type="text"><br><br>
-State where animal is located: <input type="text"><br><br>
-Country where animal is located: <input type="text"><br><br>
-Zip code where animal is located: <input type="text"><br><br>
-Date observed: <input type="date"><br><br>
-Subject: <input type="text"><br><br>
-Please describe your concern:<br><textarea></textarea><br><br>
-Consent: <input type="checkbox"><br><br>
+First name: <input type="text" name="fname"><br><br>
+Last name: <input type="text" name="lname"><br><br>
+Address: <input type="text" name="address"><br><br>
+City: <input type="text" name="city"><br><br>
+State: <input type="text" name="state"><br><br>
+Country: <input type="text" name="country"><br><br>
+Zip code: <input type="text" name="zip"><br><br>
+Telephone: <input type="tel" name="tel"><br><br>
+E-mail: <input type="email" name="mail"><br><br>
+Address where animal is located: <input type="text" name="_address"><br><br>
+City where animal is located: <input type="text" name="_city"><br><br>
+State where animal is located: <input type="text" name="_state"><br><br>
+Country where animal is located: <input type="text" name="_country"><br><br>
+Zip code where animal is located: <input type="text" name="_zip"><br><br>
+Date observed: <input type="date" name="date"><br><br>
+Subject: <input type="text" name="subject"><br><br>
+Please describe your concern:<br><textarea name="desc"></textarea><br><br>
+Consent: <input type="checkbox" name="consent"><br><br>
 <input type="submit">
 <input type="reset">
+</form>
 </p>
 <br>
 <hr>

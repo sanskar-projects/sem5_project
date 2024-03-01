@@ -24,15 +24,34 @@ set();
 <hr>
 <br>
 
-<h1>Home</h1>
 <fieldset>
-<h1 href="index.html">Home</h1><br>
-<h1 href="about.html">About</h1><br>
-<h1 href="adopt.html">Adopt</h1><br>
-<h1 href="contact.html">Contact</h1><br>
-<h1 href="donate.html">Donate</h1><br>
-<h1 href="rescue.html">Report</h1><br>
+<h1 href="index.html" style="background-color:red;">Home</h1><br>
+<h1 id="a" href="about.html">About</h1><br>
+<h1 id="b" href="adopt.html">Adopt</h1><br>
+<h1 id="c" href="contact.html">Contact</h1><br>
+<h1 id="d" href="donate.html">Donate</h1><br>
+<h1 id="e" href="rescue.html">Report</h1><br>
 </fieldset>
+<script>
+function clear()
+{
+document.getElementById("a").backgroundColor="green";
+document.getElementById("b").backgroundColor="green";
+document.getElementById("c").backgroundColor="green";
+document.getElementById("d").backgroundColor="green";
+document.getElementById("e").backgroundColor="green";
+}
+function home()
+{
+setTimeout(function(){document.getElementById("a").backgroundColor="red";},100);
+setTimeout(function(){document.getElementById("b").backgroundColor="red";},200);
+setTimeout(function(){document.getElementById("c").backgroundColor="red";},300);
+setTimeout(function(){document.getElementById("d").backgroundColor="red";},400);
+setTimeout(function(){document.getElementById("e").backgroundColor="red";},500);
+setTimeout(clear,600);
+}
+setInterval(home,700);
+</script>
 <br>
 <hr>
 <br>

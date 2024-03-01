@@ -18,7 +18,6 @@ $_zip=$_GET["_zip"];
 $date=$_GET["date"];
 $subject=$_GET["subject"];
 $description=$_GET["description"];
-$consent=$_GET["consent"];
 
 $conn=mysqli_connect("localhost","root","","NGO_database");
 $sql="INSERT INTO user VALUES('$fname','$lname','$address','$city','$state','$country','$zip','$tel','$mail')";

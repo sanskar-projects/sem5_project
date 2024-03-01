@@ -15,12 +15,7 @@ margin:;
 
 p
 {
-color:;
-font-family:;
-font-size:;
-border:;
-padding:;
-margin:;
+
 }
 
 img
@@ -29,9 +24,15 @@ width:100%;
 height:500px;
 }
 
+input
+{
+background-color:white;
+}
+
 hr
 {
 background-color:black;
+height:5px;
 }
 
 .menu

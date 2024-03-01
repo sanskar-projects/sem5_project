@@ -23,6 +23,12 @@ padding:;
 margin:;
 }
 
+img
+{
+width:100%;
+height:500px;
+}
+
 hr
 {
 background-color:black;

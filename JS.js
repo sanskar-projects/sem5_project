@@ -1,7 +1,7 @@
 function slideshow()
 {
 var x=1+Math.floor(Math.random()*15)
-document.getElementById("1").src=x+".jpg";
+document.getElementById("1").src=x+".jpg,1.jpg";
 }
 
 function quote()

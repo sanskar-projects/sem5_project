@@ -1,19 +1,25 @@
-<form method="get" action="report.php">
-
-<input name="fname">
-<input name="lname">
-<input name="city">
-<input name="state">
-<input name="email">
-<input name="phone">
-<input name="addressofanimal">
-<input name="cityofanimal">
-<input name="stateofanimal">
-<input name="countryofanimal">
-<input name="date">
-<input name="pincode">
-<input name="concern">
-
-<input type="submit">
-
-</form>
+<html>
+<body>
+<?php
+$fullname=$_GET["fullname"];
+$email=$_GET["email"];
+$address=$_GET["address"];
+$city=$_GET["city"];
+$state=$_GET["state"];
+$fund=$_GET["fund"];
+if(!empty($email))
+{
+$conn=mysqli_connect("localhost","root","","team1database");
+$sql="INSERT INTO donate VALUES('$fullname','$email','$address','$city','$state','$fund')";
+if($conn->query($sql)===TRUE)
+{
+echo "<h1>Thank you for donating!</h1>";
+}
+}
+else
+{
+echo "enter valid details";
+}
+?>
+</body>
+</html>

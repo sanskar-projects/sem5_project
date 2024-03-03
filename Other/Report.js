@@ -5,17 +5,16 @@ var lname=document.getElementById("lname");
 var city=document.getEdonatelementById("city");
 var state=document.getElementById("state");
 var email=document.getElementById("email");
-var phone=document.getElementById("phone")
-var addressofanimal=document.getElementById("addressofanimal")
-var cityofanimal=document.getElementById("cityofanimal")
-var stateofanimal=document.getElementById("stateofanimal")
-var countryofanimal=document.getElementById("countryofanimal")
-var date=document.getElementById("date")
-var pincode=document.getElementById("pincode")
-var concern=document.getElementById("concern")
-
+var phone=document.getElementById("phone");
+var addressofanimal=document.getElementById("addressofanimal");
+var cityofanimal=document.getElementById("cityofanimal");
+var stateofanimal=document.getElementById("stateofanimal");
+var countryofanimal=document.getElementById("countryofanimal");
+var date=document.getElementById("date");
+var pincode=document.getElementById("pincode");
+var concern=document.getElementById("concern");
 var EMAIL=/^[a-zA-Z0-9._]+@[a-zA-Z.]+$/;
-
+var PHONE=/^[0-9]{10}$/;
 if(fname.value.length==0)
 {
 alert("enter firstname");
@@ -94,10 +93,15 @@ alert("enter concern");
 document.getElementById("email")="";
 return;
 }
-
 if(!email.value.match(EMAIL))
 {
 alert("invalid email");
+document.getElementById("email")="";
+return;
+}
+if(!phone.value.match(PHONE))
+{
+alert("invalid phone");
 document.getElementById("email")="";
 return;
 }

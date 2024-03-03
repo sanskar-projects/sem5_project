@@ -1,8 +1,8 @@
-function donate_validate()
+function donatevalidate()
 {
 var fullname=document.getElementById("fullname");
 var email=document.getElementById("email");
-var address=document.getElementById("address");
+var address=document.getEdonatelementById("address");
 var city=document.getElementById("city");
 var state=document.getElementById("state");
 var fund=document.getElementById("fund");

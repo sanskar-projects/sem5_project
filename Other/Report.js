@@ -75,7 +75,7 @@ alert("enter country of animal");
 document.getElementById("email")="";
 return;
 }
-if(date.value.length==0)
+if(!date.value)
 {
 alert("enter date");
 document.getElementById("email")="";
